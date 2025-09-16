@@ -36,3 +36,85 @@ body {
 .nav_icons {
     
 }
+
+.products {
+    margin: 100px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.product_card {
+    flex-basis: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.product_image {
+    position: relative;
+}
+
+.product_image img {
+    width: 100%;
+    display: block;
+}
+
+.product_image .hover-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product_card:hover .hover-image {
+    display: block;
+}
+
+.product_image .heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heart_icon:hover {
+    color: red;
+}
+
+.product_image .discount,
+
+.product_image .sustainability {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.product_image .discount {
+background-color: red;
+}
+
+.product_image .sustainability {
+    background-color: green;
+    left: 55px;
+}
+
+.product_info {
+padding-top: 10px;
+}
+
+
