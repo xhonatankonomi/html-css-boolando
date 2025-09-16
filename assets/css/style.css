@@ -157,17 +157,28 @@ padding-top: 10px;
 }
 
 .footer_content {
-
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .legal_info a {
-
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 12px;
 }
 
 .social_links a {
-
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .social_links p {
-    
+    display: flex;
+    margin-right: 10px;
+    font-size: 14px;
 }
