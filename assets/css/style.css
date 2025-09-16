@@ -29,12 +29,25 @@ body {
     align-items: center;
 }
 
-.logo {
-
+.nav-links a, 
+.nav-icons i {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-.nav_icons {
-    
+.nav-links a :hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto 20px;
+    padding: 20px;
 }
 
 .products {
@@ -116,5 +129,11 @@ background-color: red;
 .product_info {
 padding-top: 10px;
 }
+
+.brand {
+    font-size: 12px;
+    color: #555;
+}
+
 
 
