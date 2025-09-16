@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.site-header {
+.site_header {
     background-color: #ff6900;
     color: white;
     padding: 10px 0;
@@ -15,9 +15,24 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.site-footer {
+.site_footer {
     background-color: #1a1a1a;
     color: white;
     padding: 15px 0;
 }
 
+.nav_bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+}
+
+.nav_icons {
+    
+}
